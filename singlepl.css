@@ -26,15 +26,15 @@ body{
     height: 200px;
     width: 200px;
     /* border: 2px solid red; */
-    /* display: flex;
-    justify-items: center; */
+    display: flex;
+    /* justify-items: center; */ 
 }
 .main{
 display: flex;
 justify-content: space-between;
 }
 #clk{
-    height: 350px;
+    height: 75px;
 }
 .user{
      /* border: 2px solid red; */
@@ -66,6 +66,32 @@ justify-content: space-between;
     .main{
         flex-direction: column-reverse;
         /* justify-content: center; */
-        height: 1000px;
+        height: 1313px;
+        color: rgb(0, 0, 133);
+    }
+    .comp{
+        width: 695px;
+        height: 445px;
+        align-items: end;
+        /* border: 2px solid red; */
+    }
+    .user{
+        width: fit-content;
+    }
+    .score{
+       
+        width: 700px;
+        justify-content: center;
+        height: 700px;
+        align-items: center;
+        /* border: 2px solid red; */
+    }
+    .clk{
+        /* border: 2px solid red; */
+        height: 200px;
+        width: 698px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
