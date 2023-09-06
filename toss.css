@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+#decide{
+    height: 200px ;
 }
 body{
     background-image: url(assets/game-background.jpg);
@@ -23,11 +27,26 @@ body{
     /* border: 2px solid red; */
     width: 700px;   
 }
+#result{
+ font-size: 100px;
+ font-family:'Rubik Iso';
+}
+.resultt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#btnstrt{
+    height: 100px;
+}
 
 @media (max-width:600px){
     .main{
         width: 681px;
         height: 1100px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
+    }
+    #btnstrt{
+        height: 300px;
     }
 }

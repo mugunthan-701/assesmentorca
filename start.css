@@ -46,7 +46,11 @@ body{
        height: 210vh;
     }
     .instimg{
-        height: 700px;
+        height: 1178px;
+    }
+    .btn{
+        width: 815px;
+        height: 252px;
     }
     
   }
