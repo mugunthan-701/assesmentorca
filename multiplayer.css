@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(assets/game-background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.bat{
+    height: 100px;
+}
+.scorecommon{
+    background-image: url("assets/bat-original.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    font-size: xx-large;
+    font-family: 'Luckiest Guy';
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color:white;  
+}
+.userhand{
+    width: fit-content;
+    background-image: url(assets/paper.jpg);
+    height:300px;
+    display: flex;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.handuser{
+    height: 300px;
+}
+.clk{
+    height: fit-content;
+    width: 1500px;
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-items: center; */ 
+}
+.main{
+display: flex;
+justify-content: space-between;
+}
+#clk{
+    height: 75px;
+}
+.user{
+     /* border: 2px solid red; */
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.comp{
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    align-items: end;
+}
+.score{
+    /* border: 2px solid red; */
+    height: 150px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Caesar Dressing;
+    font-size: 75px;
+}
+#resultdiv{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    font-size: xx-large;
+
+}
+#resultimg{
+    position: absolute;
+    bottom: 200px;
+    right:550px;
+    height: 300px;
+    flex-direction: column-reverse;
+}
+#resultttt{
+    background-color: black;
+    color: white;
+}
+#player1{
+    padding-top: 7px;
+    padding-left: 30px;
+}
+#player2{
+    padding-top: 7px;
+    padding-left: 30px;
+}
+@media (max-width:600px){
+    .main{
+        flex-direction: column-reverse;
+        /* justify-content: center; */
+        height: 1313px;
+        color: rgb(0, 0, 133);
+    }
+    .comp{
+        width: 695px;
+        height: 445px;
+        align-items: end;
+        /* border: 2px solid red; */
+    }
+    .user{
+        width: fit-content;
+    }
+    .score{
+       
+        width: 700px;
+        justify-content: center;
+        height: 700px;
+        align-items: center;
+        /* border: 2px solid red; */
+    }
+    .clk{
+        /* border: 2px solid red; */
+        height: 200px;
+        width: 698px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

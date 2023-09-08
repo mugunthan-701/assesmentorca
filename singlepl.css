@@ -61,6 +61,25 @@ justify-content: space-between;
     font-family: Caesar Dressing;
     font-size: 75px;
 }
+#resultdiv{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    font-size: xx-large;
+
+}
+#resultimg{
+    position: absolute;
+    bottom: 200px;
+    right:550px;
+    height: 300px;
+    flex-direction: column-reverse;
+}
+#resultttt{
+    background-color: black;
+    color: white;
+}
 
 @media (max-width:600px){
     .main{
