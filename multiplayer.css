@@ -52,6 +52,12 @@ justify-content: space-between;
 #clk{
     height: 75px;
 }
+#resetbtn{
+    display: none;
+}
+#rst{
+    height: 50px;
+}
 .user{
      /* border: 2px solid red; */
     height: 540px;
@@ -89,7 +95,7 @@ justify-content: space-between;
 #resultimg{
     position: absolute;
     bottom: 200px;
-    right:550px;
+    right:600px;
     height: 300px;
     flex-direction: column-reverse;
 }
@@ -137,4 +143,14 @@ justify-content: space-between;
         align-items: center;
         justify-content: center;
     }
+    #resultttt{
+position: absolute;
+border: 2px solid red;
+}
+#resultdiv{
+    align-items: center;
+}
+#resultimage{
+    display: none;
+}
 }

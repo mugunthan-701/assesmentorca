@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function() {
 var clickableImage = document.getElementById("clk");
 var scoree = document.getElementById("scoree");
 var imageuser = document.getElementById("handuser");
@@ -110,3 +111,10 @@ function playGameUser() {
 console.log(scoreresult)
 
 clickableImage.addEventListener("click", playGameUser);
+document.addEventListener("keydown",function(e){
+  if(e.key===" "){
+    console.log("hi")
+    // playGameUser()
+  }
+})
+})
